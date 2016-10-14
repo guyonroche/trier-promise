@@ -1,0 +1,31 @@
+{
+  "name": "trier-promise",
+  "version": "1.0.1",
+  "engines": {
+    "node": ">= 0.1.0"
+  },
+  "description": "A promise based trier",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha spec/unit --recursive"
+  },
+  "keywords": [
+    "trier",
+    "retry",
+    "promise",
+    "timeout"
+  ],
+  "author": "Guyon Roche",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "sinon": "*",
+    "sinon-chai": "*"
+  }
+}
